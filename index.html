@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photobooth Controller</title>
+</head>
+<body>
+  <h1>Photobooth Controller</h1>
+  <button onclick="sendUDP('init')">init</button>
+  <button onclick="sendUDP('return');sendUDP('set_image1')">img 1</button>
+  <button onclick="sendUDP('return');sendUDP('set_image2')">img 2</button>
+  <button onclick="sendUDP('return');sendUDP('set_image3')">img 3</button>
+  <button onclick="sendUDP('return');sendUDP('set_image4')">img 4</button>
+  <button onclick="sendUDP('return');sendUDP('set_image5')">img 5</button>
+
+  <script>
+    function sendUDP(command) {
+      fetch(`http://localhost:3000/send/${command}`)
+        .then(response => response.text())
+        .then(text => console.log(text))
+        .catch(err => console.error('Error:', err));
+    }
+  </script>
+</body>
+</html>
