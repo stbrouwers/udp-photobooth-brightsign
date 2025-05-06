@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
   <title>Photobooth Controller</title>
-</head>
-<body>
-  <h1>Photobooth Controller</h1>
-  <button onclick="sendUDP('init')">init</button>
-  <button onclick="sendUDP('return');sendUDP('set_image1')">img 1</button>
-  <button onclick="sendUDP('return');sendUDP('set_image2')">img 2</button>
-  <button onclick="sendUDP('return');sendUDP('set_image3')">img 3</button>
-  <button onclick="sendUDP('return');sendUDP('set_image4')">img 4</button>
-  <button onclick="sendUDP('return');sendUDP('set_image5')">img 5</button>
 
-  <script>
-    function sendUDP(command) {
-      fetch(`http://localhost:3000/send/${command}`)
-        .then(response => response.text())
-        .then(text => console.log(text))
-        .catch(err => console.error('Error:', err));
-    }
-  </script>
+  <script src="assets/js/script.js"></script>
+
+  <link rel="stylesheet" href="assets/css/base.css"> 
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <link rel="stylesheet" href="assets/css/content panel/selector.css">
+  <link rel="stylesheet" href="assets/css/content panel/preview.css">
+</head>
+
+<body>
+  <header>
+    <div id="logocontainer">
+      <img class="logomedium" src="assets/img/Logo.png"> 
+    </div>
+    <div class="gradientbg"></div>
+  </header>
+
+  <main>
+    <div id="contentselector" class="scroll-container">
+      <div id="buttoncontainer">
+
+      </div>
+    </div>
+
+    <div id="contentpreview">
+      <div id="preview">
+
+      </div>
+      <button class="confirmbtn hidden" id="confirmationbutton">Confirm</button>
+    </div>
+  </main>
+  
 </body>
 </html>

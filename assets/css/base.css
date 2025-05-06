@@ -1,0 +1,20 @@
+:root {
+    --hpurple: #2b004f;
+    --hmpurple: #2b004f83;
+    --hlpurple: #2b004f27;
+    --hblack: #040404;
+    --hgray: #7f7f7f;
+}
+
+.scroll-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge (old) */
+}
+  
+.scroll-container::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari */
+}
+
+body {
+    margin: 0;
+}

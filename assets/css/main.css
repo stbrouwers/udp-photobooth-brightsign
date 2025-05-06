@@ -1,0 +1,28 @@
+main {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+}
+
+.defaultbtn {
+    border: 1px solid var(--hpurple);
+    background: linear-gradient(90deg,white 0% 70%, var(--hlpurple) 100%);
+    background-size: 400% 400%;
+    transition: background-position ease 300ms;
+
+}
+
+.confirmbtn {
+    border: 1px solid var(--hpurple);
+    background: linear-gradient(90deg,white 0% 70%, rgba(21, 241, 113, 0.295) 100%);
+    background-size: 400% 400%;
+    transition: background-position ease 300ms;
+}
+
+.defaultbtn:hover, .confirmbtn:hover {
+    background-position: 100% 50%;
+    cursor: pointer;
+}
