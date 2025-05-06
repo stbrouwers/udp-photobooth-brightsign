@@ -10,6 +10,12 @@ const udpPort = 5000; // Default UDP listening port for BrightSign
 
 app.use(cors());
 
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 app.get('/send/:command', (req, res) => {
   const message = Buffer.from(req.params.command);
   const socket = dgram.createSocket('udp4');
@@ -27,7 +33,7 @@ app.get('/send/:command', (req, res) => {
 });
 
 app.get('/get-files', (req, res) => {
-  const folderPath = path.join(__dirname, 'content');
+  const folderPath = path.join(__dirname, 'public/content');
   fs.readdir(folderPath, (err, files) => {
       if (err) return res.status(500).send('Error reading folder');
       res.json(files.filter(file => /\.(jpg|png|mp4)$/i.test(file)));

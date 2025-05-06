@@ -12,9 +12,7 @@ fetch('http://localhost:3000/get-files')
     const container = document.getElementById('buttoncontainer');
     files.forEach(file => {
         const btn = document.createElement('button');
-
-
-
+        
         btn.textContent = processFileName(file, 'name');
         btn.dataset.path = file;
         btn.dataset.extension = processFileName(file, 'extension');
@@ -62,7 +60,7 @@ function loadPreview(btn) {
     switch(btn.dataset.extension) {
         case 'png':
             element = document.createElement('img');
-            element.src = `content/${btn.dataset.path}`
+            element.src = `../content/${btn.dataset.path}`
             break;
 
         case 'mp4':
