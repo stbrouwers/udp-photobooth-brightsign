@@ -28,3 +28,7 @@
 .hidden {
     display: none;
 }
+
+.dynamic-preview-obj {
+    border: 3px solid var(--hgray);
+}

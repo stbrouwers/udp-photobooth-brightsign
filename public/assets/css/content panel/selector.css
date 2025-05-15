@@ -2,7 +2,7 @@
     display: inline-block;
     border-right: var(--hgray) solid 1px;
     width: 25%;
-    min-width: 175px;
+    min-width: 217px;
     max-width: 300px;
     height: 100%;
     padding-right: 20px;
@@ -19,6 +19,31 @@
     height: 40px;
     margin: 10px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    box-sizing: border-box;
+}
+
+.btn-file-ext {
+    height: 100%;
+    width: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+flex-shrink: 0;
+
+    color: white;
+    background: var(--hmpurple);
+}
+
+.btn-file-ext > svg {
+    width: 20px;
 }
 
 .button-active {
