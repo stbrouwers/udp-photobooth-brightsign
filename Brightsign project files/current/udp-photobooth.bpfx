@@ -1,0 +1,1340 @@
+{
+  "meta": {
+    "brightAuthorVersion": "1.59.0",
+    "buildType": "Standard"
+  },
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "21412d08-c5f8-4000-a8be-a99ace1ef000",
+        "version": "1.3.10",
+        "name": "udp-photobooth",
+        "videoMode": "1920x1080x60p",
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "model": "HD224",
+        "monitorOrientation": "Landscape",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 300,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "htmlEnableChromiumVideoPlayback": false,
+        "gpsConfiguration": "None",
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "gps": false,
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2025-05-23T10:17:59.196Z"
+    },
+    "zones": {
+      "zonesById": {
+        "33db4094-49f1-4000-a37f-ef1034674000": {
+          "id": "33db4094-49f1-4000-a37f-ef1034674000",
+          "name": "Zone 1",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": false,
+          "initialMediaStateId": "535050d8-1e60-4000-a44f-21e357e63000",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Letterboxed and Centered",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fit"
+          }
+        }
+      },
+      "allZones": [
+        "33db4094-49f1-4000-a37f-ef1034674000"
+      ],
+      "zoneLayersById": {
+        "9ebba234-b08e-4000-a568-fe6654b22000": {
+          "id": "9ebba234-b08e-4000-a568-fe6654b22000",
+          "type": "Graphics",
+          "zoneSequence": [
+            "33db4094-49f1-4000-a37f-ef1034674000"
+          ]
+        },
+        "55aff69c-f94e-4000-aaf3-035468c7b000": {
+          "id": "55aff69c-f94e-4000-aaf3-035468c7b000",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "42c258db-3d75-4000-a342-f436e7676000": {
+          "id": "42c258db-3d75-4000-a342-f436e7676000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "11bb42e0-77bd-4000-a498-c10cc2dd4000": {
+          "id": "11bb42e0-77bd-4000-a498-c10cc2dd4000",
+          "type": "Video",
+          "zoneSequence": [
+            "33db4094-49f1-4000-a37f-ef1034674000"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "9ebba234-b08e-4000-a568-fe6654b22000",
+        "11bb42e0-77bd-4000-a498-c10cc2dd4000"
+      ],
+      "zoneTagIndices": {
+        "33db4094-49f1-4000-a37f-ef1034674000": 8
+      }
+    },
+    "screens": {
+      "screensById": {},
+      "allScreens": []
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "535050d8-1e60-4000-a44f-21e357e63000": {
+          "id": "535050d8-1e60-4000-a44f-21e357e63000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg",
+          "tag": "1",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg",
+            "type": "Image",
+            "assetId": "c9ebaffc-baee-4000-a6b4-d0c296ecf000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "b6e98ea5-72fd-4000-ae2b-46a224f46000": {
+          "id": "b6e98ea5-72fd-4000-ae2b-46a224f46000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg",
+          "tag": "2",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg",
+            "type": "Image",
+            "assetId": "f9e3cc22-42e0-4000-a63f-3c23efcaf000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "b224780a-4298-4000-af86-15a10b3b9000": {
+          "id": "b224780a-4298-4000-af86-15a10b3b9000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg",
+          "tag": "3",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg",
+            "type": "Image",
+            "assetId": "5259537f-f690-4000-af09-76e5ac6d8000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "5d43f53b-abf8-4000-a5ab-a8a91128d000": {
+          "id": "5d43f53b-abf8-4000-a5ab-a8a91128d000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg",
+          "tag": "4",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg",
+            "type": "Image",
+            "assetId": "08c83920-4051-4000-af5f-822478ea3000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "0c0805e7-ce8d-4000-a81b-f935a5ad6000": {
+          "id": "0c0805e7-ce8d-4000-a81b-f935a5ad6000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg",
+          "tag": "5",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg",
+            "type": "Image",
+            "assetId": "cb3ca79e-5eb2-4000-a19c-66a576b35000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "ece2b66b-b7a1-4000-a984-35c464bde000": {
+          "id": "ece2b66b-b7a1-4000-a984-35c464bde000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg",
+          "tag": "6",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg",
+            "type": "Image",
+            "assetId": "7c367632-a18e-4000-a8c3-623ae2b61000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "8b937c3e-cc44-4000-a27c-5ac258ea9000": {
+          "id": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "name": "Event Handler",
+          "tag": "7",
+          "container": {
+            "id": "33db4094-49f1-4000-a37f-ef1034674000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Event Handler",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        }
+      },
+      "sequencesByParentId": {}
+    },
+    "events": {
+      "46da93ab-f8aa-4000-aafe-07bf53632000": {
+        "id": "46da93ab-f8aa-4000-aafe-07bf53632000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "535050d8-1e60-4000-a44f-21e357e63000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "f7cdfbdb-afd5-4000-a138-6507789b4000": {
+        "id": "f7cdfbdb-afd5-4000-a138-6507789b4000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "b6e98ea5-72fd-4000-ae2b-46a224f46000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "6653352e-e7cf-4000-a769-aefd98a17000": {
+        "id": "6653352e-e7cf-4000-a769-aefd98a17000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "b224780a-4298-4000-af86-15a10b3b9000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "022dfb5f-a11c-4000-ab3f-37bbd376f000": {
+        "id": "022dfb5f-a11c-4000-ab3f-37bbd376f000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "5d43f53b-abf8-4000-a5ab-a8a91128d000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "1e5aacc6-8e86-4000-a00f-d89c1167e000": {
+        "id": "1e5aacc6-8e86-4000-a00f-d89c1167e000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "0c0805e7-ce8d-4000-a81b-f935a5ad6000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "48e2e3d5-aae1-4000-acc6-3166a16d1000": {
+        "id": "48e2e3d5-aae1-4000-acc6-3166a16d1000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "ece2b66b-b7a1-4000-a984-35c464bde000",
+        "disabled": false,
+        "data": {
+          "data": "return",
+          "label": "return",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "52bc0bda-f7e9-4000-afc2-f7dd4269a000": {
+        "id": "52bc0bda-f7e9-4000-afc2-f7dd4269a000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_1",
+          "label": "set_content_1",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "82c790be-0489-4000-a0d1-26b1620ab000": {
+        "id": "82c790be-0489-4000-a0d1-26b1620ab000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_2",
+          "label": "set_content_2",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "1704ac95-e202-4000-a71b-a4a92c6d4000": {
+        "id": "1704ac95-e202-4000-a71b-a4a92c6d4000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_3",
+          "label": "set_content_3",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "f6c312c8-1e0e-4000-ab8a-713de9a64000": {
+        "id": "f6c312c8-1e0e-4000-ab8a-713de9a64000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_4",
+          "label": "set_content_4",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "0e94807b-ae41-4000-a356-fa2ad90bf000": {
+        "id": "0e94807b-ae41-4000-a356-fa2ad90bf000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_5",
+          "label": "set_content_5",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "953ac670-c1b5-4000-ae36-02be23b30000": {
+        "id": "953ac670-c1b5-4000-ae36-02be23b30000",
+        "name": "Event Handler_ev_ev",
+        "type": "Udp",
+        "mediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "disabled": false,
+        "data": {
+          "data": "set_content_6",
+          "label": "set_content_6",
+          "export": true,
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "4f539e26-ee48-4000-a549-8201c862b000": {
+          "id": "4f539e26-ee48-4000-a549-8201c862b000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg_ev_tr",
+          "eventId": "46da93ab-f8aa-4000-aafe-07bf53632000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3ed635d0-4780-4000-aff6-9fa031811000": {
+          "id": "3ed635d0-4780-4000-aff6-9fa031811000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg_ev_tr",
+          "eventId": "f7cdfbdb-afd5-4000-a138-6507789b4000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "39061f10-79b8-4000-a4fb-3cf529f44000": {
+          "id": "39061f10-79b8-4000-a4fb-3cf529f44000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg_ev_tr",
+          "eventId": "6653352e-e7cf-4000-a769-aefd98a17000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7989e461-3618-4000-a52b-268f3bd82000": {
+          "id": "7989e461-3618-4000-a52b-268f3bd82000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg_ev_tr",
+          "eventId": "022dfb5f-a11c-4000-ab3f-37bbd376f000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "a54381d6-2da5-4000-a774-43e470c04000": {
+          "id": "a54381d6-2da5-4000-a774-43e470c04000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg_ev_tr",
+          "eventId": "1e5aacc6-8e86-4000-a00f-d89c1167e000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "1b49ef5e-dacf-4000-a66b-7f03c9a5f000": {
+          "id": "1b49ef5e-dacf-4000-a66b-7f03c9a5f000",
+          "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg_ev_tr",
+          "eventId": "48e2e3d5-aae1-4000-acc6-3166a16d1000",
+          "targetMediaStateId": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f7625db4-396e-4000-aaa7-e7440e128000": {
+          "id": "f7625db4-396e-4000-aaa7-e7440e128000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "52bc0bda-f7e9-4000-afc2-f7dd4269a000",
+          "targetMediaStateId": "535050d8-1e60-4000-a44f-21e357e63000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "797ca416-d456-4000-a489-275a49c26000": {
+          "id": "797ca416-d456-4000-a489-275a49c26000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "82c790be-0489-4000-a0d1-26b1620ab000",
+          "targetMediaStateId": "b6e98ea5-72fd-4000-ae2b-46a224f46000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ba55b994-9513-4000-a171-96987fca5000": {
+          "id": "ba55b994-9513-4000-a171-96987fca5000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "1704ac95-e202-4000-a71b-a4a92c6d4000",
+          "targetMediaStateId": "b224780a-4298-4000-af86-15a10b3b9000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7bed65cd-4891-4000-a8ae-dcb19380d000": {
+          "id": "7bed65cd-4891-4000-a8ae-dcb19380d000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "f6c312c8-1e0e-4000-ab8a-713de9a64000",
+          "targetMediaStateId": "5d43f53b-abf8-4000-a5ab-a8a91128d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "99470789-0aa6-4000-a41d-4dfc19aae000": {
+          "id": "99470789-0aa6-4000-a41d-4dfc19aae000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "0e94807b-ae41-4000-a356-fa2ad90bf000",
+          "targetMediaStateId": "0c0805e7-ce8d-4000-a81b-f935a5ad6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "89436fc4-9f3d-4000-a913-c4bccd24b000": {
+          "id": "89436fc4-9f3d-4000-a913-c4bccd24b000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "953ac670-c1b5-4000-ae36-02be23b30000",
+          "targetMediaStateId": "ece2b66b-b7a1-4000-a984-35c464bde000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {},
+      "sequencesById": {}
+    },
+    "userDefinedEvents": {
+      "userDefinedEventsById": {},
+      "sequence": []
+    },
+    "htmlSites": {},
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {},
+      "sequence": []
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {},
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "bmapSpec": "0",
+    "assetMap": {
+      "c9ebaffc-baee-4000-a6b4-d0c296ecf000": {
+        "id": "c9ebaffc-baee-4000-a6b4-d0c296ecf000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.1_resized.jpg",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "f9e3cc22-42e0-4000-a63f-3c23efcaf000": {
+        "id": "f9e3cc22-42e0-4000-a63f-3c23efcaf000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "1fdf92e623fde84a",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.12_resized.jpg",
+        "mediaType": "Image",
+        "fileSize": 236605,
+        "lastModifiedDate": "2025-05-23T09:50:39.190Z",
+        "refCount": 1
+      },
+      "5259537f-f690-4000-af09-76e5ac6d8000": {
+        "id": "5259537f-f690-4000-af09-76e5ac6d8000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "1fdf92e623fde84a",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.13_resized.jpg",
+        "mediaType": "Image",
+        "fileSize": 140150,
+        "lastModifiedDate": "2025-05-23T09:51:30.847Z",
+        "refCount": 1
+      },
+      "08c83920-4051-4000-af5f-822478ea3000": {
+        "id": "08c83920-4051-4000-af5f-822478ea3000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "1fdf92e623fde84a",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.14_resized.jpg",
+        "mediaType": "Image",
+        "fileSize": 320150,
+        "lastModifiedDate": "2025-05-23T09:51:46.810Z",
+        "refCount": 1
+      },
+      "cb3ca79e-5eb2-4000-a19c-66a576b35000": {
+        "id": "cb3ca79e-5eb2-4000-a19c-66a576b35000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "1fdf92e623fde84a",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.15_resized.jpg",
+        "mediaType": "Image",
+        "fileSize": 311764,
+        "lastModifiedDate": "2025-05-23T09:52:12.860Z",
+        "refCount": 1
+      },
+      "7c367632-a18e-4000-a8c3-623ae2b61000": {
+        "id": "7c367632-a18e-4000-a8c3-623ae2b61000",
+        "name": "73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg",
+        "path": "C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "1fdf92e623fde84a",
+        "locator": "file://\\C:\\Users\\x0DoRl4a8P1\\Pictures\\artica photobooth\\73033902-003 VER_KAF_ECFS Congress Panel A LED 1200px aw0.16_resized.jpg",
+        "mediaType": "Image",
+        "fileSize": 320692,
+        "lastModifiedDate": "2025-05-23T09:52:22.943Z",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCABwAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAgG/8QAKRABAAECAwcDBQAAAAAAAAAAAPAWKQhJVgECAwQFBhUYIiNBVFVhc//EABkBAQEBAQEBAAAAAAAAAAAAAAAEAwUGAv/EACoRAQAAAwYEBwEBAAAAAAAAAAABAgMTFGFikuIFERJzBCFBQkPBwjJR/9oADAMBAAIRAxEAPwDW4csOWDT0advYgsQXZv3fl+r+R6r+V43KcD4OU4v8dz2bn72/XaWaJVRk0TVSxnoqtWaE08008/8Ac0PKblCEIcsI/wCvmefoRzZolVFmiVUsYZXjPU17WdvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+CObNEqos0SqljBeM9TXtLfBHNmiVUWaJVSxgvGepr2lvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+COcRuHLBp6NO4cQWH3s37TxHV/I9V/K8HlOP8HN8X+2579z97PptDJomqh3eFxm6aks00ZumeMPOPOPKHJRAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/wAp6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnJomqljOF4j39yf8p6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnDliNwaejTt7D7iC7y+78v0jx3VfyvG5vgfPynC/jv+zf8A1t+uws0SqnHq0pozTyzST/3NHyl5wjCPLGH+M55OtYwjmzRKqLNEqpld8lTRuZ2GKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYrGEc2aJVRZolVF3yVNG4sMVjCObNEqos0Sqi75KmjcWGKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYmTRNVBiNxG4NPRp3Dh9w+95faeI6R47qv5Xg83x/n5vhf23/fv/rZ9Ng7vC4TdNSaaWMvVPGPnDlHlHkog/9k=",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "6a857ee29564654bb88235aaff1272ad4149d0a2"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "33db4094-49f1-4000-a37f-ef1034674000",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {},
+    "prevSelectionEntities": {
+      "953ac670-c1b5-4000-ae36-02be23b30000": {
+        "id": "953ac670-c1b5-4000-ae36-02be23b30000",
+        "type": "Event",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      }
+    },
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "WIDGETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "535050d8-1e60-4000-a44f-21e357e63000": {
+        "id": "535050d8-1e60-4000-a44f-21e357e63000",
+        "position": {
+          "x": -60,
+          "y": 60
+        }
+      },
+      "b6e98ea5-72fd-4000-ae2b-46a224f46000": {
+        "id": "b6e98ea5-72fd-4000-ae2b-46a224f46000",
+        "position": {
+          "x": 180,
+          "y": 60
+        }
+      },
+      "b224780a-4298-4000-af86-15a10b3b9000": {
+        "id": "b224780a-4298-4000-af86-15a10b3b9000",
+        "position": {
+          "x": 420,
+          "y": 60
+        }
+      },
+      "5d43f53b-abf8-4000-a5ab-a8a91128d000": {
+        "id": "5d43f53b-abf8-4000-a5ab-a8a91128d000",
+        "position": {
+          "x": 660,
+          "y": 60
+        }
+      },
+      "0c0805e7-ce8d-4000-a81b-f935a5ad6000": {
+        "id": "0c0805e7-ce8d-4000-a81b-f935a5ad6000",
+        "position": {
+          "x": 900,
+          "y": 60
+        }
+      },
+      "ece2b66b-b7a1-4000-a984-35c464bde000": {
+        "id": "ece2b66b-b7a1-4000-a984-35c464bde000",
+        "position": {
+          "x": 1140,
+          "y": 60
+        }
+      },
+      "8b937c3e-cc44-4000-a27c-5ac258ea9000": {
+        "id": "8b937c3e-cc44-4000-a27c-5ac258ea9000",
+        "position": {
+          "x": 540,
+          "y": -180
+        }
+      }
+    },
+    "eventDataById": {
+      "46da93ab-f8aa-4000-aafe-07bf53632000": {
+        "id": "46da93ab-f8aa-4000-aafe-07bf53632000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "f7cdfbdb-afd5-4000-a138-6507789b4000": {
+        "id": "f7cdfbdb-afd5-4000-a138-6507789b4000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "6653352e-e7cf-4000-a769-aefd98a17000": {
+        "id": "6653352e-e7cf-4000-a769-aefd98a17000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "022dfb5f-a11c-4000-ab3f-37bbd376f000": {
+        "id": "022dfb5f-a11c-4000-ab3f-37bbd376f000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1e5aacc6-8e86-4000-a00f-d89c1167e000": {
+        "id": "1e5aacc6-8e86-4000-a00f-d89c1167e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "48e2e3d5-aae1-4000-acc6-3166a16d1000": {
+        "id": "48e2e3d5-aae1-4000-acc6-3166a16d1000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "52bc0bda-f7e9-4000-afc2-f7dd4269a000": {
+        "id": "52bc0bda-f7e9-4000-afc2-f7dd4269a000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "82c790be-0489-4000-a0d1-26b1620ab000": {
+        "id": "82c790be-0489-4000-a0d1-26b1620ab000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1704ac95-e202-4000-a71b-a4a92c6d4000": {
+        "id": "1704ac95-e202-4000-a71b-a4a92c6d4000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "f6c312c8-1e0e-4000-ab8a-713de9a64000": {
+        "id": "f6c312c8-1e0e-4000-ab8a-713de9a64000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "0e94807b-ae41-4000-a356-fa2ad90bf000": {
+        "id": "0e94807b-ae41-4000-a356-fa2ad90bf000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "953ac670-c1b5-4000-ae36-02be23b30000": {
+        "id": "953ac670-c1b5-4000-ae36-02be23b30000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      }
+    },
+    "viewTransformByZoneId": {
+      "33db4094-49f1-4000-a37f-ef1034674000": {
+        "x": 179.90825986329355,
+        "y": 90.18510942646192,
+        "k": 0.6864981970445189
+      }
+    },
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {},
+  "screenLayoutSettings": {
+    "selectedLayoutId": null,
+    "screenCount": null,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false
+  }
+}
