@@ -5,8 +5,8 @@ const cors = require('cors');
 const path = require('path');
 const app = express();
 
-const playerIP = '192.168.0.148'; // Change to your BrightSign player's IP
-const udpPort = 5000; // Default UDP listening port for BrightSign
+const playerIP = '192.168.0.148';
+const udpPort = 5000;
 
 app.use(cors());
 
