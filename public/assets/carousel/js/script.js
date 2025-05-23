@@ -6,6 +6,8 @@ let slidesContainer = null;
 let dotsContainer = null;
 let dots = null;
 
+let backgroundContainer = null;
+
 let startX = 0;
 let isDragging = false;
 
@@ -13,6 +15,7 @@ async function init() {
     images = await fetchFiles();
     slidesContainer = document.getElementById('slides');
     dotsContainer = document.getElementById('dots');
+    backgroundContainer = document.getElementById('backgroundcontainer');
 
     createSlides();
     updateCarousel();
@@ -73,11 +76,24 @@ function createSlides() {
     dots = document.querySelectorAll('.dot');
 }
 
+function updateBackground(img) {
+    backgroundContainer.style.transition = 'background-size 0.5s ease, filter 0.5s ease';
+    backgroundContainer.style.backgroundSize = '110%';
+    backgroundContainer.style.filter = 'blur(10px) brightness(0)';
+
+    setTimeout(() => {
+        backgroundContainer.style.backgroundImage = `url('../content/${img}')`; 
+        backgroundContainer.style.backgroundSize = '100%'; 
+        backgroundContainer.style.filter = 'blur(10px) brightness(0.45)';
+    }, 300);
+}
+
 function updateCarousel() {
     slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
     dots.forEach(dot => dot.classList.remove('active'));
     dots[currentSlide].classList.add('active');
     setContent(currentSlide+1);
+    updateBackground(images[currentSlide]);
 }
 
 function goToSlide(index) {

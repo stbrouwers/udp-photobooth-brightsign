@@ -16,6 +16,20 @@ body, html {
     overflow: hidden;
 }
 
+#backgroundcontainer {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    
+
+    transition: background-size 0.5s ease, filter 0.5s ease;
+    z-index: -1;
+    filter: blur(10px) brightness(0.5);
+    transform: scale(1.2);
+ 
+}
+
 .slides {
     display: flex;
     height: 100%;
@@ -26,7 +40,9 @@ body, html {
     flex: 0 0 100%;
     background-size: contain;
     background-position: center;
-    background-repeat: space;
+    background-repeat: no-repeat;
+
+    filter: drop-shadow(0px 0px 20px #000000);
 }
 
 .dots {
