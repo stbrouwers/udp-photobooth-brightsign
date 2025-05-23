@@ -77,7 +77,7 @@ function updateCarousel() {
     slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
     dots.forEach(dot => dot.classList.remove('active'));
     dots[currentSlide].classList.add('active');
-    setContent(currentSlide);
+    setContent(currentSlide+1);
 }
 
 function goToSlide(index) {
