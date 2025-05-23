@@ -32,10 +32,14 @@ fetch('http://localhost:3000/get-files')
 
             let icon = null;
             switch (btn.dataset.extension) {
-                case 'png':
+                case 'jpg':
                     icon = icons.image;
                     break;
                     
+                case 'png':
+                    icon = icons.image;
+                    break;
+
                 case 'mp4':
                     icon = icons.video;        
                     break;
@@ -76,6 +80,10 @@ function loadPreview(btn) {
     console.log(btn.dataset.extension);
     let element = null;
     switch(btn.dataset.extension) {
+        case 'jpg':
+            element = document.createElement('img');
+            break;
+
         case 'png':
             element = document.createElement('img');
             break;
