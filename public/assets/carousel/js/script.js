@@ -79,12 +79,12 @@ function createSlides() {
 function updateBackground(img) {
     backgroundContainer.style.transition = 'background-size 0.5s ease, filter 0.5s ease';
     backgroundContainer.style.backgroundSize = '110%';
-    backgroundContainer.style.filter = 'blur(10px) brightness(0)';
+    backgroundContainer.style.filter = 'brightness(0)';
 
     setTimeout(() => {
         backgroundContainer.style.backgroundImage = `url('../content/${img}')`; 
         backgroundContainer.style.backgroundSize = '100%'; 
-        backgroundContainer.style.filter = 'blur(10px) brightness(0.45)';
+        backgroundContainer.style.filter = 'brightness(0.5)';
     }, 300);
 }
 

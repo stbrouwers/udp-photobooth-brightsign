@@ -24,8 +24,16 @@ body, html {
     
 
     transition: background-size 0.5s ease, filter 0.5s ease;
+    filter: brightness(0.45); 
     z-index: -1;
-    filter: blur(10px) brightness(0.45); 
+}
+
+#backgroundcontainer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
 }
 
 .slides {
@@ -35,12 +43,11 @@ body, html {
 }
 
 .slide {
+    overflow: visible;
     flex: 0 0 100%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    filter: drop-shadow(0px 0px 20px #000000);
 }
 
 .dots {
