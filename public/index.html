@@ -3,8 +3,11 @@
   
 <head>
   <title>Photobooth Controller</title>
+  <meta charset="UTF-8">
 
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/udpmsg.js"></script>
+  <script src="assets/js/fileHandler.js"></script>
 
   <link rel="stylesheet" href="assets/css/base.css"> 
   <link rel="stylesheet" href="assets/css/header.css">
@@ -14,7 +17,7 @@
   <link rel="stylesheet" href="assets/css/content panel/preview.css">
 </head>
 
-<body>
+<body onload="init()">
   <header>
     <div id="logocontainer">
       <img class="logomedium" src="assets/img/Logo.png"> 

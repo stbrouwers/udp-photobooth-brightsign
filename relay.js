@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+app.get('/carousel', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'carousel.html'));
+});
+
 app.get('/send/:command', (req, res) => {
   const message = Buffer.from(req.params.command);
   const socket = dgram.createSocket('udp4');
