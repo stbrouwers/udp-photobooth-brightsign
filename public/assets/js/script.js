@@ -4,7 +4,7 @@ let files = null;
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('confirmationbutton').addEventListener("click", function() {
-        setImage(selectedBtn.dataset.cid);
+        setContent(selectedBtn.dataset.cid);
     });
 });
 
@@ -18,7 +18,7 @@ async function init() {
     createSelectorButtons();
 }
 
-async function createSelectorButtons() {
+function createSelectorButtons() {
     const container = document.getElementById('buttoncontainer');
     files.forEach(file => {
         const btn = document.createElement('button');

@@ -1,4 +1,4 @@
-function setImage(id) {
+function setContent(id) {
     sendUDP(`return`);
     sendUDP(`set_content_${id}`);
 }
