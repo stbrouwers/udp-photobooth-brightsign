@@ -60,14 +60,18 @@ body, html {
 }
 
 .dot {
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: 8vh;
     background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    border: white 3px solid;
-    margin: 5px;
+    /* border: white 2px solid; */
+    transition: margin 300ms ease, background-color 200ms ease;
+    padding: 4px;
 }
 
 .dot.active {
     background-color: white;
+    /* border: white 4px solid; */
+    margin-right: 10px;
+    margin-left: 10px;
 }
