@@ -19,22 +19,21 @@ body, html {
 #backgroundcontainer {
     position: absolute;
     inset: 0;
-    background-position: center;
-    background-size: cover;
-    
-
-    transition: background-size 0.5s ease, filter 0.5s ease;
-    filter: brightness(0.45); 
+    background-color: #52247f;
+    /* background-position: center;
+    background-size: cover; */
+    /* transition: background-size 0.5s ease, filter 0.5s ease;
+    filter: brightness(0.45);  */
     z-index: -1;
 }
 
-#backgroundcontainer::after {
+/* #backgroundcontainer::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100vh;
     backdrop-filter: blur(10px);
-}
+} */
 
 .slides {
     display: flex;
@@ -48,6 +47,7 @@ body, html {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.9));
 }
 
 .dots {

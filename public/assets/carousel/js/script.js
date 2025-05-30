@@ -77,24 +77,24 @@ function createSlides() {
     dots = document.querySelectorAll('.dot');
 }
 
-function updateBackground(img) {
-    backgroundContainer.style.transition = 'background-size 0.5s ease, filter 0.5s ease';
-    backgroundContainer.style.backgroundSize = '110%';
-    backgroundContainer.style.filter = 'brightness(0)';
+// function updateBackground(img) {
+//     backgroundContainer.style.transition = 'background-size 0.5s ease, filter 0.5s ease';
+//     backgroundContainer.style.backgroundSize = '110%';
+//     backgroundContainer.style.filter = 'brightness(0)';
 
-    setTimeout(() => {
-        backgroundContainer.style.backgroundImage = `url('../content/${img}')`; 
-        backgroundContainer.style.backgroundSize = '100%'; 
-        backgroundContainer.style.filter = 'brightness(0.5)';
-    }, 300);
-}
+//     setTimeout(() => {
+//         backgroundContainer.style.backgroundImage = `url('../content/${img}')`; 
+//         backgroundContainer.style.backgroundSize = '100%'; 
+//         backgroundContainer.style.filter = 'brightness(0.5)';
+//     }, 300);
+// }
 
 function updateCarousel() {
     slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
     dots.forEach(dot => dot.classList.remove('active'));
     dots[currentSlide].classList.add('active');
     setContent(currentSlide+1);
-    updateBackground(images[currentSlide]);
+    // updateBackground(images[currentSlide]);
 }
 
 function goToSlide(index) {
