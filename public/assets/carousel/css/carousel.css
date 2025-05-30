@@ -60,11 +60,11 @@ body, html {
 }
 
 .dot {
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
+    height: 100px;
+    width: 100px;
     background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
+    border: white 5px solid;
 }
 
 .dot.active {

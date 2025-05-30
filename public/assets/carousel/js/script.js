@@ -68,7 +68,8 @@ function createSlides() {
         slide.style.backgroundImage = `url('../content/${img}')`;
         slidesContainer.appendChild(slide);
 
-        const dot = document.createElement('div');
+        const dot = document.createElement('img');
+        dot.src = `../content/${img}`;
         dot.className = 'dot';
         dot.addEventListener('click', () => goToSlide(index));
         dotsContainer.appendChild(dot);
